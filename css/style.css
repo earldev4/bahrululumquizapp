@@ -1,0 +1,25 @@
+.container .row .index-card{
+    background-color: #C6C6C6;
+}
+.container .row .button-mulai{
+    color: white;
+    text-decoration: none;
+    background-color: #FF3939;
+    display: inline-block;
+    font-size: 1.125rem;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.container .row .socialmedia {
+    color: black;
+    font-size: 1.125rem;
+    text-decoration: none;
+}
+
+
+#table_wrapper{
+    overflow: auto;
+}
+

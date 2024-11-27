@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../assets/image/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: aliceblue; 
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    width: 70%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: 'Poopins', sans-serif;
+}
+
+.line{
+    width: 70%;
+    height: 2px;
+    background-color: rgb(58, 58, 58);
+    margin: 10px 0;    
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.911);
+    width: 60%;
+    min-height: 600px;
+    padding: 0px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    position: relative;
+    padding: 2% 5% 2% 5%;
+}
+
+.exercise-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    position: relative;
+}
+
+.exercise-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    margin: 0 5% 0 5%;
+}
+
+.exercise-item:not(:last-child) {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.exercise-name {
+    font-weight: 500;
+    width: 60%;
+    text-align: start;
+}
+
+.date {
+    width: 20%;
+    font-size: 0.9em;
+    color: #000000;
+    text-align: center;
+}
+
+.link {
+    width: 20%;
+    color: #007bff;
+    text-decoration: none;
+    text-align: end;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+.button-mulai{
+    color: white;
+    text-decoration: none;
+    background-color: #FF3939;
+    display: inline-block;
+    font-size: 1.125rem;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.w-25{
+    width: 10% !important;
+}
