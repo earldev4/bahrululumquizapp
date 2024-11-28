@@ -1,3 +1,6 @@
+<?php
+    echo date(d M Y, H:i:s);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
